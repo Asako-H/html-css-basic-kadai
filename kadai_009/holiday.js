@@ -17,6 +17,8 @@ const holidays = [
   "勤労感謝の日",
 ];
 
+console.log(holidays);
+
 let i = 0;
 while (i < holidays.length) {
   console.log(holidays[i]);
