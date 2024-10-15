@@ -1,5 +1,7 @@
-const square = (num) => {
-  console.log(num * 2);
+const numBer = (num) => {
+  const result = num * 2;
+  console.log(result);
+  return result;
 };
 
-square(4);
+const result = numBer(4);
