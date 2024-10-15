@@ -1,7 +1,6 @@
 const numBer = (num) => {
-  const result = num * num;
-  console.log(result);
-  return result;
+  return num * num;
 };
 
 const result = numBer(4);
+console.log(result);
