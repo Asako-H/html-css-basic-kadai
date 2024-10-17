@@ -1,4 +1,7 @@
+const displayElement = document.getElementById("text");
+const changeBtn = document.getElementById("btn");
+
 // ボタンをクリック
-document.getElementById("btn").addEventListener("click", function () {
-  document.getElementById("text").textContent = "ボタンをクリックしました";
+changeBtn.addEventListener("click", function () {
+  displayElement.textContent = "ボタンをクリックしました";
 });
